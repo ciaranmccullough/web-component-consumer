@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Telemetry Dashboard</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Speed Telemetry</h1>
+      <p>Consuming the <code>&lt;speed-chart&gt;</code> web component</p>
+    </header>
+
+    <main>
+      <section class="card">
+        <speed-chart id="telemetry-chart" height="400"></speed-chart>
+        <!-- Replace w/ cdn link, e.g. <script type="module" src="https://cdn.example.com/chart-component.mjs"></script> -->
+      </section>
+    </main>
+
+    <script type="module" src="/chart-component.mjs"></script>
+    <script type="module" src="src/app.ts"></script>
+  </body>
+</html>
