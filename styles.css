@@ -43,3 +43,23 @@ main {
   border-radius: 12px;
   padding: 24px;
 }
+
+speed-chart {
+  display: block;
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 12px;
+  }
+
+  header h1 {
+    font-size: 22px;
+  }
+
+  .card {
+    padding: 8px;
+    border-radius: 8px;
+  }
+}
